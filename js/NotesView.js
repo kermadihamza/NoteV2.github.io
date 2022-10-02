@@ -8,7 +8,9 @@ export default class NotesView {
         this.root.innerHTML = `
             <div class="notes__sidebar">
                 <button class="notes__add" type="button">Add Note</button>
-                <div class="notes__list"></div>
+                <div class="notes__list">
+                <i class="fa-solid fa-trash"></i>
+                </div>
             </div>
             <div class="notes__preview">
                 <input class="notes__title" type="text" placeholder="New Note...">
