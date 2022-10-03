@@ -15,8 +15,8 @@ export default class NotesView {
             <div class="notes__preview">
                 <input class="notes__title" type="text" placeholder="New Note...">
                 <textarea class="notes__body">Take Note...</textarea>
-                <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
-<div id="display-image"></div>
+                // <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+                // <div id="display-image"></div>
             </div>
         `;
 
