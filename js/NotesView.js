@@ -15,10 +15,10 @@ export default class NotesView {
             <div class="notes__preview">
                 <input class="notes__title" type="text" placeholder="New Note...">
                 <textarea class="notes__body">Take Note...</textarea>
+                </div>
+                `;
                 // <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
                 // <div id="display-image"></div>
-            </div>
-        `;
 
         const btnAddNote = this.root.querySelector(".notes__add");
         const inpTitle = this.root.querySelector(".notes__title");
